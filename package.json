@@ -3,13 +3,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "basehub build --output node_modules && nuxt build",
+    "build": "basehub build && nuxt build",
     "dev": "basehub dev & nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/kit": "^3.14.159",
     "basehub": "^7.5.28",
     "nuxt": "^3.14.159",
     "vue": "latest",
