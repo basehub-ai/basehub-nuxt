@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "basehub build && nuxt build",
+    "build": "basehub build && nuxt build && basehub build --output ./.output/.basehub",
     "dev": "basehub dev & nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
